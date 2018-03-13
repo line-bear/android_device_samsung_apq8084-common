@@ -81,11 +81,15 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl \
     libbt-vendor
 
+	
 # Camera
 PRODUCT_PACKAGES += \
-    camera.apq8084 \
-    libstlport \
-    libxml2
+	android.hardware.camera.provider@2.4-impl \
+	camera.device@1.0-impl \
+	camera.apq8084 \
+	libstlport \
+	libxml2 \
+	Snap
 
 # Display
 PRODUCT_PACKAGES += \
